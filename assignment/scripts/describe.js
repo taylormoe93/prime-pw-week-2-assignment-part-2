@@ -157,8 +157,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-//FIX — the use of the OR operator would make it so that if one of these was true, but the other was false, it would still return as true. 
-// The instructions are suggesting it would be &&, not ||, because it says it's checking if the temp is higher than 39 AND if time is greater or equal to 4.
+// FIX — the use of the OR operator would make it so that if one of these was true, but the other was false, it would still return as true. 
+// The instructions are suggesting it would be &&, not ||, because it says it's checking if the temp is higher than 39 AND if time is greater or equal to 4 then the code would be run.
 // Side note: I hope I am understanding || correctly.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -173,6 +173,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// Fix — Instructions say we are checking if minAge is greater than or equal to age, but the variable is checking if it is lesser than or equal to age to return 'no entry'.
+// minAge is equal to age though, so the console log would indeed post 'enter'. 
 if(minAge <= age) {
   console.log('no entry');
 } else {
