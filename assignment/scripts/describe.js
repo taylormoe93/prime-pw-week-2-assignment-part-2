@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called 'name' and set it to a string: 'Dane'.
+// If name strictly equals 'Mary' then console log 'Hi, Mary!'.
+// If name does not equal 'Mary' console log 'How do you do?'
+// Because name equals 'Dane' then the console log will produce 'How do you do?'.
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called 'secret' with no defined value.
+// We make a variable called 'code' and set it to a number: 123.
+// We check if 'code' strictly equals 123 then the undefined variable 'secret' will equal the string 'super'. 
+// Also, code will multiply its value by two (which would equal a new value of '246').
+// If code is greater than 250 then secret would equal the string 'duper'.
+// Now to console log 'secret' which would produce 'super' since the value of code equals 246, which is less than 250, thus not triggering the second if statement's modification of 'secret'.
 
 //CODE
 /*
@@ -70,9 +72,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We create a boolean variable: 'isStudent' which equals true.
+// We create a variable called 'age' which equals 34.
+// We create a variable called 'zip' which equals 55407.
+// If isStudent strictly equals true and zip is greater than 80000 then console log 'You're a student on the West Coast!'.
+// If isStudent strictly equals false 
+//
+//
 //
 
 //CODE
