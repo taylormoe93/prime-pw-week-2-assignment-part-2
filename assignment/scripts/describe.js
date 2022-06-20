@@ -76,10 +76,12 @@ console.log(secret)
 // We create a variable called 'age' which equals 34.
 // We create a variable called 'zip' which equals 55407.
 // If isStudent strictly equals true and zip is greater than 80000 then console log 'You're a student on the West Coast!'.
-// If isStudent strictly equals false 
-//
-//
-//
+// If the previous conditional returns false then we move down to the next option: 
+// If isStudent strictly equals false and/or age is less than 30 then it would post to the console log: "What are your hobbies?" 
+// Because this is an OR operator, then it would return false if both conditions are false. But if one or both of the conditions are true, then it would return as true and post the console log. (referenced from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR)
+// So, if the previous conditional returns false then we move down to the next option: 
+// If isStudent strictly equals true then it would post a console log of 'Welcome to Prime!'
+// If inStudent is false, and all previous conditionals were failed, then it would post 'How about the weather?'.
 
 //CODE
 /*
