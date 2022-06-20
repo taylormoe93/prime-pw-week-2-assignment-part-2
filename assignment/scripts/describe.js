@@ -138,6 +138,8 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX — colorOne is set to red — instructions say blue. 
+// colorTwo is set to blue — instructions say red.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -155,6 +157,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX — the use of the OR operator would make it so that if one of these was true, but the other was false, it would still return as true. 
+// The instructions are suggesting it would be &&, not ||, because it says it's checking if the temp is higher than 39 AND if time is greater or equal to 4.
+// Side note: I hope I am understanding || correctly.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
